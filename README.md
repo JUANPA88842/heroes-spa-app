@@ -1,5 +1,5 @@
 # Heroes spa App - Practicing React.
--website [Heroes-spa-app](https://heroes-app-juanpa88842.netlify.app/login)
+-Website [Heroes-spa-app](https://heroes-app-juanpa88842.netlify.app/login)
 
 ## Table of contents
 
@@ -25,24 +25,26 @@ A page for superheroes was created to review some React concepts such as:
 
 ### Screenshot
 
-![](./imagenes/marvel.JPG)
+![](./images/marvel.JPG)
 
-![](./imagenes/dc.JPG)
+![](./images/dc.JPG)
 
-![](./imagenes/search.JPG)
+![](./images/search.JPG)
 
 
 ## My process
+The project began by creating the access routes, building a list of heroes based on their respective categories. Next, the individual hero cards and their information were designed for display. Later, a search screen was implemented, and both public and private routes were set up for each screen. Finally, localStorage was utilized to preserve the session state in case a user logged out and then logged back in, and some animations were added.
 
 ### Built with
 
-- Java 17
-- Java Swing - Java Library
+- React.js
+- [Query-String](https://www.npmjs.com/package/query-string) - npm library
+- [Netlify](https://heroes-app-juanpa88842.netlify.app/marvel) - Deployed
 
 
 ### What I learned
 
-Aprendí un poco de la libreria de Java Swing y como realizar projectos con buenas practicas de OOP.
+I learned how to use query parameters, especially how to read the data with a very useful library called query string. I really liked the design of the routes as it is quite robust and functional, something I will definitely continue to use in my future projects. I also want to highlight the use of useMemo to store values and avoid re-rendering the page, the use of useContext to access the global state of the login variable, and the use of useLocation to get the current location object and access properties like pathname and search.
 
 ## Author
 
